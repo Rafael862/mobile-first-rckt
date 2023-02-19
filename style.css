@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #E5E5E5;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    background-color: #8E9AAF;
+    padding-bottom: 2.9rem;
+}
+
+header img {
+    margin-top: 32px;
+}
+
+header div {
+    background-color: #CBC0D3;
+    color: #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100vw;
+    
+}
+
+.titulo {
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    line-height: 3.4rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+header div .titulo {
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 3.4rem;
+    letter-spacing: 5%;
+}
+
+main {
+    padding: 0px 0px 6rem;
+    
+}
+
+main p {
+    max-width: 320px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #23053A;
+}
+
+.all-cards {
+    background-color: #fff;
+    padding: 14px 32px 60px;
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.all-cards > div:nth-child(2) {
+    margin-top: 3.1rem;
+}
+
+.card {
+    position: relative;
+}
+
+.card p {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    background-color: #FEEAFA;
+    color: #4A4E69;
+    padding: 1px 2.4rem 1px;
+    border-radius: 20px;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    letter-spacing: 5%;
+    right: 0;
+    margin-top: 1.7rem;
+    margin-right: 3.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.imagens {
+    width: 100%;
+}
