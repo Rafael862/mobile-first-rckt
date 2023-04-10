@@ -91,8 +91,32 @@ main p {
     margin-right: 3.9rem;
     text-transform: uppercase;
     font-weight: 400;
+    animation: mover-para-baixo 2s ease-out;
 }
 
 .imagens {
     width: 100%;
+}
+
+img .images{
+    animation: mover-para-cima 2s ease-out;
+
+}
+
+@keyframes mover-para-baixo {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes mover-para-cima {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
